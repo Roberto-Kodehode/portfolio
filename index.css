@@ -1,0 +1,13 @@
+.index-container {
+  display: flex;
+  align-items: center;
+}
+
+.press-start {
+  font-size: 48px;
+  color: #f6f6f6;
+}
+
+p {
+  font-size: 36px;
+}

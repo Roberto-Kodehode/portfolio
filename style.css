@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  width: 1440px;
+  height: 1024px;
+  background: #261b5a;
+  font-family: "Press Start 2P", cursive;
+  color: #f6f6f6;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 96px;
+  color: #eccb49;
+  text-shadow: 6px 6px 0px #fe6f76;
+}
+
+.index-container {
+  display: flex;
+  align-items: center;
+}
+
+.press-start {
+  font-size: 48px;
+  color: #f6f6f6;
+  animation: blink-style 0.5s linear infinite;
+}
+@keyframes blink-style {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+p {
+  font-size: 36px;
+}
