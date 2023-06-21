@@ -29,7 +29,7 @@ body {
 .press-start {
   font-size: 48px;
   color: #f6f6f6;
-  animation: blink-style 0.5s linear infinite;
+  animation: blink-style 1.5s ease-in infinite;
 }
 @keyframes blink-style {
   0% {
