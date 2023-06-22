@@ -65,3 +65,15 @@ span {
   width: 200px;
   height: 120px;
 }
+
+.move-div {
+  animation: moveright 4s linear;
+}
+@keyframes moveright {
+  0% {
+    left: 4000px;
+  }
+  100% {
+    left: 0px;
+  }
+}
