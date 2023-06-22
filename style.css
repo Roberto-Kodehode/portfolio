@@ -1,19 +1,21 @@
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   position: relative;
   text-align: center;
-  width: 1440px;
-  height: 1024px;
   background: #261b5a;
   font-family: "Press Start 2P", cursive;
   color: #f6f6f6;
   margin: 0 auto;
-  padding: 0px;
+  padding: 50px;
   overflow: hidden;
   font-size: 16px;
+}
+
+.container {
+  width: 1440px;
+  height: 1024px;
 }
 
 .title {
@@ -25,9 +27,17 @@ body {
 .index-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.intro-container {
+  margin: 0 auto;
+  width: 800px;
+  text-align: left;
 }
 
 .press-start {
+  text-decoration: none;
   font-size: 48px;
   color: #f6f6f6;
   animation: blink-style 1.5s ease-in infinite;
@@ -52,11 +62,6 @@ span {
   color: #eccb49;
 }
 
-.intro-container {
-  width: 800px;
-  text-align: left;
-}
-
 .font-size-24 {
   font-size: 24px;
 }
@@ -76,4 +81,21 @@ span {
   100% {
     left: 0px;
   }
+}
+
+.menu-frontendman {
+  position: absolute;
+  width: 770px;
+  height: 986px;
+  left: 0px;
+  top: 38px;
+
+  background: url(image.png);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  z-index: 1;
 }
