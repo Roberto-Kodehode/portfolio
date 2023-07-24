@@ -1,21 +1,45 @@
+/* ###### */
+/* Shared */
+/* ###### */
+
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  text-align: center;
   background: #261b5a;
   font-family: "Press Start 2P", cursive;
   color: #f6f6f6;
-  margin: 0 auto;
-  padding: 50px;
   overflow: hidden;
   font-size: 16px;
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 70px;
+}
+
+.border {
+  border: #c0924a solid 10px;
+  border-radius: 20px;
 }
 
 .container {
+  display: flex;
   width: 1440px;
   height: 1024px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gap {
+  gap: 70px;
+}
+
+.padding {
+  padding: 50px 0;
 }
 
 .title {
@@ -24,23 +48,80 @@ body {
   text-shadow: 6px 6px 0px #fe6f76;
 }
 
-.index-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.back-arrow {
+  position: absolute;
+  left: 50px;
+  top: 75px;
+  animation: backarrow 3.7s infinite;
 }
 
-.intro-container {
-  margin: 0 auto;
-  width: 800px;
-  text-align: left;
+@keyframes backarrow {
+  0% {
+    left: 50px;
+  }
+  50% {
+    left: 80px;
+  }
+  100% {
+    left: 50px;
+  }
+}
+
+.font-size-24 {
+  font-size: 24px;
+}
+
+.font-size-36 {
+  font-size: 36px;
+}
+
+.font-size-48 {
+  font-size: 48px;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+p {
+  line-height: 155%;
+}
+
+span {
+  color: #eccb49;
+}
+/* ########## */
+/* index.html */
+/* ########## */
+
+.move-div {
+  animation: movediv 4s linear;
+}
+@keyframes movediv {
+  from {
+    margin-right: -500%;
+  }
+  to {
+    margin-right: 0%;
+  }
+}
+
+.index-container {
+  display: flex;
+  width: 1440px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .press-start {
   text-decoration: none;
   font-size: 48px;
   color: #f6f6f6;
-  animation: blink-style 1.5s ease-in infinite;
+  opacity: 0;
+  animation: blink-style 1.5s ease-in 5s infinite;
 }
 @keyframes blink-style {
   0% {
@@ -54,16 +135,16 @@ body {
   }
 }
 
-.font-size-36 {
-  font-size: 36px;
-}
+/* ########## */
+/* intro.html */
+/* ########## */
 
-span {
-  color: #eccb49;
-}
-
-.font-size-24 {
-  font-size: 24px;
+.intro-container {
+  margin: 0 auto;
+  width: 800px;
+  text-align: left;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nyancat {
@@ -71,31 +152,94 @@ span {
   height: 120px;
 }
 
-.move-div {
-  animation: moveright 4s linear;
-}
-@keyframes moveright {
-  0% {
-    left: 4000px;
-  }
-  100% {
-    left: 0px;
-  }
+.link-a {
+  color: #f6f6f6;
+  text-decoration: none;
+  padding: 15px;
 }
 
-.menu-frontendman {
-  position: absolute;
-  width: 770px;
-  height: 986px;
-  left: 0px;
-  top: 38px;
+.link-a:hover {
+  background-color: #eccb49;
+  color: #261b5a;
+  padding: 15px;
+}
 
-  background: url(image.png);
+/* ############### */
+/* characters.html */
+/* ############### */
 
-  /* Inside auto layout */
+#characters-container {
+  width: 1000px;
+  height: 425px;
+}
 
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  z-index: 1;
+#characters-container img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.about-container {
+  width: 1000px;
+  height: 260px;
+  color: #261b5a;
+  background-color: #eccb49;
+  text-align: left;
+  padding: 15px;
+}
+
+/* ########### */
+/* levels.html */
+/* ########### */
+
+.levels-container {
+  width: 1000px;
+  height: 600px;
+  display: flex;
+  gap: 50px;
+}
+
+.levels-select-container {
+  display: flex;
+  height: 600px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.levels-display-container {
+  width: 600px;
+  height: 600px;
+  background-color: #eccb49;
+  color: #261b5a;
+}
+
+button {
+  width: 300px;
+  height: 85px;
+  font-family: "Press Start 2P", cursive;
+  background-color: #eccb49;
+  color: #261b5a;
+  gap: 10px;
+}
+
+/* ####### */
+/* credits */
+/* ####### */
+
+.links-container {
+  width: 666px;
+  height: 525px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  border: #eccb49 solid 10px;
+  border-radius: 20px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 24px;
 }

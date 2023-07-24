@@ -22,7 +22,7 @@ const characters = [
 const elements = characters.map((character) => ({
   img: document.getElementById(character.id),
   name: document.getElementById("character-name"),
-  description: document.getElementById("about-character"),
+  description: document.getElementById("character-about-text"),
 }));
 
 let timer;
@@ -41,6 +41,6 @@ elements.forEach(({ img, name, description }, index) => {
 
     timer = setInterval(() => {
       description.textContent += myArray.shift().toUpperCase();
-    }, 55);
+    }, 48);
   });
 });
