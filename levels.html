@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THE WONDERFUL ADVENTURES OF FRONTENDMAN</title>
+    <script src="levels.js" defer></script>
+  </head>
+  <body class="container">
+    <!--  -->
+    <a href="menu.html"
+      ><img class="back-arrow" src="img/back-arrow.png" alt=""
+    /></a>
+    <!--  -->
+    <main class="padding gap-25">
+      <h2 class="font-size-48">SELECT LEVEL</h2>
+      <div class="levels-container">
+        <div class="levels-select-container">
+          <button id="level-11" class="font-size-24 border">LEVEL 1-1</button>
+          <button id="level-21" class="font-size-24 border">LEVEL 2-1</button>
+          <button id="level-31" class="font-size-24 border">LEVEL 3-1</button>
+          <button id="level-41" class="font-size-24 border">LEVEL 4-1</button>
+          <button id="level-51" class="font-size-24 border">LEVEL 5-1</button>
+          <button id="level-boss" class="font-size-24 border">BOSS!</button>
+        </div>
+        <div class="levels-display-container bg-yellow border">
+          <h3 id="card-title" class="font-size-24">FRONTEND WORLD!</h3>
+          <img id="card-img" src="img/placeholder.png" alt="" />
+          <p id="card-description"></p>
+          <div class="project-links">
+            <p id="github"></p>
+            <p id="live"></p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
