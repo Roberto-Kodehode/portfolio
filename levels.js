@@ -4,10 +4,10 @@ const level = [
     name: "PROJECT VENUS",
     imageSrc: "img/venus.png",
     description:
-      "First project at Kodehode! Designing webpage in Figma, then utilze what we had learnt for the...",
-    github: "denne er til Github",
-    linkTitle: "Link tittel",
-    links: "Dette er lenken",
+      "IN MY INITIAL PROJECT AT KODEHODE, I UTILIZED FIGMA FOR LAYOUT VISUALIZATION AND HTML/CSS FOR DESIGN IMPLEMENTATION, RESULTING IN A POLISHED AND USER-FRIENDLY OUTCOME.",
+    github: "Github",
+    linkTitle: "VENUS",
+    links: "https://roberto-kodehode.github.io/venus/",
   },
   {
     id: "level-21",
