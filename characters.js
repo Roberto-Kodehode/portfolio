@@ -41,6 +41,6 @@ elements.forEach(({ img, name, description }, index) => {
 
     timer = setInterval(() => {
       description.textContent += myArray.shift().toUpperCase();
-    }, 45);
+    }, 42);
   });
 });
