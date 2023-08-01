@@ -359,20 +359,19 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* padding: 0px; */
+  padding: 16px;
   gap: 48px;
 }
 
 .container-menu-links a {
   color: #f6f6f6;
   text-decoration: none;
-  /* padding: 15px; */
+  padding: 16px;
 }
 
 .container-menu-links a:hover {
   background-color: #eccb49;
   color: #261b5a;
-  padding: 15px;
 }
 
 /* #################################################################### */
@@ -381,7 +380,7 @@ button {
 
 /* SHARED */
 
-@media screen and (width: 375px) and (height: 667px) {
+@media screen and (width: 360px) and (height: 780px) {
   body {
     font-size: 16px;
     display: flex;
