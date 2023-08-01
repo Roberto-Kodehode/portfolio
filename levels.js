@@ -36,7 +36,6 @@ const level = [
     description: "Chuck",
     github: "GITHUB",
     githubLink: "",
-
     links: "Dette er lenken",
   },
   {
@@ -46,8 +45,7 @@ const level = [
     description:
       "A DATA-DRIVEN, INTERACTIVE TODO LIST IN JAVASCRIPT. USER CAN ADD, AND MARK TASKS AS DONE. DATA PERSISTENCE USING LOCALSTORAGE.",
     github: "GITHUB",
-    githubLink: "",
-
+    githubLink: "https://github.com/Roberto-Kodehode/remember",
     links: "Dette er lenken",
   },
   {
