@@ -26,18 +26,18 @@ const level = [
     description:
       "USING JAVASCRIPT TO CREATE A DRUM KIT. BUTTONS AND ADDEVENTLISTENERS FOR CLICK EVENTS. IT UTILIZES .MAP TO LOOP THROUGH DATA.",
     github: "GITHUB",
-    githubLink: "",
-    links: "Dette er lenken",
+    githubLink: "https://github.com/Roberto-Kodehode/drumkit",
+    links: "https://roberto-kodehode.github.io/drumkit/",
   },
   {
     id: "level-41",
     name: "PROJECT MEMORY",
     imageSrc: "img/memory.png",
     description:
-      "A REACT-BASED MEMORY GAME. IT FEATURES DYNAMIC CARD MATCHING, TURN TRACKING, AND LEADERBOARD INTEGRATION",
+      "IN PROGRESS: A REACT-BASED MEMORY GAME. IT FEATURES DYNAMIC CARD MATCHING, TURN TRACKING, AND LEADERBOARD INTEGRATION",
     github: "GITHUB",
-    githubLink: "",
-    links: "Dette er lenken",
+    githubLink: "https://github.com/Roberto-Kodehode/memory",
+    links: "https://rad-kheer-d8a0f2.netlify.app/",
   },
   {
     id: "level-51",

@@ -214,7 +214,7 @@ span {
 }
 
 .about-container {
-  width: 96%;
+  width: 1000px;
   height: 180px;
   color: var(--blue);
   background-color: var(--yellow);
@@ -571,6 +571,7 @@ button {
   }
 
   .about-container {
+    width: 96%;
     height: 370px;
     padding: 4px;
     margin: 0 8px;
