@@ -621,8 +621,6 @@ button {
     /* flex-direction: column; */
     /* justify-content: end; */
     padding: 0px;
-
-    /* gap: 50px; */
   }
 
   .container-menu-links a {
@@ -678,24 +676,12 @@ button {
   }
 
   button {
-    font-size: 10px;
+    font-size: 0.5rem;
     width: 100px;
     height: 45px;
   }
 
-  .levels-display-container a {
-    /* padding: 15px; */
-    text-decoration: none;
-    color: #261b5a;
-  }
-
-  .levels-display-container a:hover {
-    background-color: #261b5a;
-    color: var(--yellow);
-    transition: 2s;
-  }
-
   .project-links {
-    padding: 0 18px;
+    padding: 0 12px;
   }
 }
