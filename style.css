@@ -419,6 +419,17 @@ button {
 /* SHARED */
 
 @media screen and (max-width: 800px) {
+  .test {
+    background-image: url(img/testtest.png);
+    width: 100vw;
+    height: 100vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0;
+    animation: fade-in 9s ease forwards;
+  }
+
   body {
     display: flex;
     /* width: 375px; */
