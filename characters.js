@@ -26,9 +26,6 @@ const elements = characters.map((character) => ({
 }));
 
 let timer;
-const readMore = ""; // link full pitch
-
-// kjør sjekk om tekst er så og så lang. append anchortag til arrayet
 
 elements.forEach(({ img, name, description }, index) => {
   img.addEventListener("click", () => {
