@@ -31,9 +31,10 @@ const level = [
   },
   {
     id: "level-41",
-    name: "PROJECT CHUCK",
-    imageSrc: "img/chuck.png",
-    description: "Chuck",
+    name: "PROJECT MEMORY",
+    imageSrc: "img/memory.png",
+    description:
+      "A REACT-BASED MEMORY GAME. IT FEATURES DYNAMIC CARD MATCHING, TURN TRACKING, AND LEADERBOARD INTEGRATION",
     github: "GITHUB",
     githubLink: "",
     links: "Dette er lenken",
