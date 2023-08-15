@@ -432,14 +432,11 @@ button {
 
   body {
     display: flex;
-    /* width: 375px; */
     height: 100vh;
     text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* gap: 30px; */
-    /* margin: 30px; */
     overflow: auto;
   }
 
@@ -495,7 +492,6 @@ button {
 
   /* ################################################################### */
   /* index.html */
-  /* ################################################################### */
 
   .frontendman_sitting {
     height: 344px;
@@ -527,22 +523,18 @@ button {
   .intro-container {
     margin: 0 auto;
     width: 100%;
-    /* text-align: left; */
   }
 
   .index-container {
     width: 100%;
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
   }
 
   /* ################################################################### */
   /* credits.html */
-  /* ################################################################### */
 
   .links-container {
-    /* position: relative; */
     width: 100%;
     height: 100%;
     display: flex;
@@ -558,8 +550,6 @@ button {
     justify-content: center;
   }
 
-  /*  */
-
   .frontendman-standing {
     height: 300px;
     width: 200px;
@@ -571,7 +561,6 @@ button {
 
   /* ################################################################### */
   /* charachters.html */
-  /* ################################################################### */
 
   #characters-container {
     width: 340px;
@@ -589,15 +578,6 @@ button {
     padding: 4px;
     margin: 0 8px;
   }
-
-  /* .about-container {
-    max-width: 1000px;
-    width: 1000px;
-    height: 180px;
-    color: var(--blue);
-    background-color: var(--yellow);
-    text-align: left;
-  } */
 
   .border {
     border: var(--brownish) solid 3px;
@@ -644,16 +624,11 @@ button {
   .container-menu-links {
     margin-top: 96px;
     position: absolute;
-    top: 12px;
+    top: 12gipx;
     width: 200px;
     height: 200px;
     font-size: 1.5rem;
     gap: 24px;
-
-    /* text-align: left; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: end; */
     padding: 0px;
   }
 
