@@ -37,7 +37,7 @@ const level = [
       "IN PROGRESS: A REACT-BASED MEMORY GAME. IT FEATURES DYNAMIC CARD MATCHING, TURN TRACKING, AND LEADERBOARD INTEGRATION",
     github: "GITHUB",
     githubLink: "https://github.com/Roberto-Kodehode/memory",
-    links: "https://rad-kheer-d8a0f2.netlify.app/",
+    links: "",
   },
   {
     id: "level-51",
@@ -47,7 +47,7 @@ const level = [
       "A DATA-DRIVEN, INTERACTIVE TODO LIST IN JAVASCRIPT. USER CAN ADD, AND MARK TASKS AS DONE. DATA PERSISTENCE USING LOCALSTORAGE.",
     github: "GITHUB",
     githubLink: "https://github.com/Roberto-Kodehode/remember",
-    links: "Dette er lenken",
+    links: "https://roberto-kodehode.github.io/remember/",
   },
   {
     id: "level-boss",
