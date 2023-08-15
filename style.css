@@ -624,8 +624,8 @@ button {
   .container-menu-links {
     margin-top: 96px;
     position: absolute;
-    top: 12gipx;
-    width: 200px;
+    top: 12px;
+    width: 300px;
     height: 200px;
     font-size: 1.5rem;
     gap: 24px;
