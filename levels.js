@@ -31,13 +31,13 @@ const level = [
   },
   {
     id: "level-41",
-    name: "PROJECT MEMORY",
-    imageSrc: "img/memory.png",
+    name: "PROJECT INVADER",
+    imageSrc: "img/celestial.png",
     description:
-      "IN PROGRESS: A REACT-BASED MEMORY GAME. IT FEATURES DYNAMIC CARD MATCHING, TURN TRACKING, AND LEADERBOARD INTEGRATION",
+      "EXPLORING 2D GAMING: CLASSIC SPACE INVADERS IN JAVASCRIPT. DIVE INTO NOSTALGIA WITH ALIEN-BLASTING ACTION, USING LOCAL STORAGE TO KEEP TRACK OF HIGH SCORES.",
     github: "GITHUB",
-    githubLink: "https://github.com/Roberto-Kodehode/memory",
-    links: "",
+    githubLink: "https://github.com/Roberto-Kodehode/celestial-invaders",
+    links: "https://roberto-kodehode.github.io/celestial-invaders/",
   },
   {
     id: "level-51",

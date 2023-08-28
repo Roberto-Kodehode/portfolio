@@ -419,7 +419,7 @@ button {
 /* SHARED */
 
 @media screen and (max-width: 800px) {
-  .test {
+  .mobile-bg {
     background-image: url(img/testtest.png);
     width: 100vw;
     height: 100vh;
