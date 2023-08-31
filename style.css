@@ -447,6 +447,34 @@ button {
 
 .bonus {
   font-size: 1.75rem;
+  margin: 12px;
+}
+
+.bonuslink .bonuslinktext {
+  padding: 16px;
+  visibility: hidden;
+  width: 350px;
+  height: 250px;
+  background-color: var(--yellow);
+  color: var(--blue);
+  text-align: left;
+  border: solid 8px var(--blue);
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.bonuslink:hover .bonuslinktext {
+  visibility: visible;
+}
+
+.bonuslinktext h3 {
+  text-decoration: underline;
+}
+
+.bonuslinktext a {
+  display: inline-flex;
+  width: 90%;
 }
 
 /* #################################################################### */
@@ -737,5 +765,9 @@ button {
 
   .bonus {
     font-size: 1rem;
+  }
+
+  .bonuslink:hover .bonuslinktext {
+    visibility: hidden;
   }
 }
