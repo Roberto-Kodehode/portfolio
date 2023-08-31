@@ -76,14 +76,13 @@ elements.forEach(
       name.textContent = level[index].name;
       description.textContent = level[index].description;
       image.src = level[index].imageSrc;
-      // github.textContent = level[index].github;
 
       // Create an anchor element and set its textContent and href attributes
 
       const githubLinkAnchor = document.createElement("a");
       githubLinkAnchor.textContent = level[index].github;
       githubLinkAnchor.href = level[index].githubLink;
-      githubLinkAnchor.target = "_self";
+      githubLinkAnchor.target = "_blank";
 
       while (githubLink.firstChild) {
         githubLink.removeChild(githubLink.firstChild);
@@ -96,7 +95,7 @@ elements.forEach(
       const linkAnchor = document.createElement("a");
       linkAnchor.textContent = level[index].name;
       linkAnchor.href = level[index].links;
-      linkAnchor.target = "_self";
+      linkAnchor.target = "_blank";
 
       // Clear the existing content of the "links" element before appending the anchor
       while (links.firstChild) {
