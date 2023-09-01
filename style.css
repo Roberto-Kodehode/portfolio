@@ -89,6 +89,10 @@ span {
 /* ########## */
 /* index.html */
 
+.frontendman-sitting {
+  margin: 0 16px;
+}
+
 .adventure {
   font-size: 1.5rem;
 }
@@ -123,7 +127,7 @@ span {
 }
 
 .line {
-  max-width: 380px;
+  max-width: 360px;
   width: calc(100%);
 }
 
@@ -416,6 +420,9 @@ button {
 /* bonus.html */
 
 .lost-levels-container {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
   width: 90%;
   height: 90%;
   padding: 12px 8px;
@@ -453,8 +460,8 @@ button {
 .bonuslink .bonuslinktext {
   padding: 16px;
   visibility: hidden;
-  width: 350px;
-  height: 250px;
+  width: 300px;
+  height: 260px;
   background-color: var(--yellow);
   color: var(--blue);
   text-align: left;
@@ -470,6 +477,7 @@ button {
 
 .bonuslinktext h3 {
   text-decoration: underline;
+  text-underline-offset: 8px;
 }
 
 .bonuslinktext a {
@@ -557,7 +565,7 @@ button {
   /* ################################################################### */
   /* index.html */
 
-  .frontendman_sitting {
+  .frontendman-sitting {
     height: 344px;
     width: 340px;
   }
@@ -769,5 +777,9 @@ button {
 
   .bonuslink:hover .bonuslinktext {
     visibility: hidden;
+  }
+
+  .lost-levels-container {
+    height: 500px;
   }
 }

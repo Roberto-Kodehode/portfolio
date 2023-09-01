@@ -1,13 +1,23 @@
 const level = [
+  // {
+  //   id: "level-11",
+  //   name: "PROJECT VENUS",
+  //   imageSrc: "img/venus.png",
+  //   description:
+  //     "IN MY INITIAL PROJECT AT KODEHODE, I UTILIZED FIGMA FOR LAYOUT VISUALIZATION AND HTML/CSS FOR DESIGN IMPLEMENTATION, RESULTING IN A POLISHED AND USER-FRIENDLY OUTCOME.",
+  //   github: "GITHUB",
+  //   githubLink: "https://github.com/Roberto-Kodehode/venus",
+  //   links: "https://roberto-kodehode.github.io/venus/",
+  // },
   {
     id: "level-11",
-    name: "PROJECT VENUS",
-    imageSrc: "img/venus.png",
+    name: "PROJECT WEATHER",
+    imageSrc: "img/weather.png",
     description:
-      "IN MY INITIAL PROJECT AT KODEHODE, I UTILIZED FIGMA FOR LAYOUT VISUALIZATION AND HTML/CSS FOR DESIGN IMPLEMENTATION, RESULTING IN A POLISHED AND USER-FRIENDLY OUTCOME.",
+      "A SIMPLE WEATHER APP. FOCUSING ON FETCHING DATA AND DISPLAYING FROM API. USER IS ABLE TO SEARCH FOR A LOCATION. ALSO MADE SOME WEATHER IMAGES IN FIGMA",
     github: "GITHUB",
-    githubLink: "https://github.com/Roberto-Kodehode/venus",
-    links: "https://roberto-kodehode.github.io/venus/",
+    githubLink: "https://github.com/Roberto-Kodehode/weather",
+    links: "https://roberto-kodehode.github.io/weather/",
   },
   {
     id: "level-21",
