@@ -15,7 +15,7 @@ const characters = [
     id: "roberto-the-pizzaman",
     name: "Roberto The Pizzaman",
     description:
-      "i am roberto the pizzaman! I love pizza! I've built a wood fired oven where I bake my pizzas. And I'm constantly trying to improve my recipe, even “dough” my pizza turns out great 9 out of 10 times. Using a scale to weigh ingredients it's really fun to see the difference which 1% of water, type of flour, shorter or longer hours of proofing can do for a pizza.",
+      "i am roberto the pizzaman! I love pizza! I've built a wood fired oven where I bake my pizzas. And I'm constantly trying to improve my recipe, even “dough” my pizza turns out great 9 out of 10 times. Using a scale to weigh ingredients it's really fun to see the difference 1% of water, type of flour, shorter or longer hours of proofing can do for a pizza.",
   },
 ];
 

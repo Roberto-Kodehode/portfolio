@@ -14,7 +14,7 @@ const level = [
     name: "PROJECT WEATHER",
     imageSrc: "img/weather.png",
     description:
-      "A SIMPLE WEATHER APP. FOCUSING ON FETCHING AND DISPLAYING DATA FROM API. USER IS ABLE TO SEARCH FOR A LOCATION. ALSO MADE SOME WEATHER IMAGES IN FIGMA",
+      "A SIMPLE WEATHER APP. FOCUSING ON FETCHING AND DISPLAYING DATA FROM API. USER IS ABLE TO SEARCH FOR A LOCATION. ALSO MADE SOME WEATHER IMAGES IN FIGMA.",
     github: "GITHUB",
     githubLink: "https://github.com/Roberto-Kodehode/weather",
     links: "https://roberto-kodehode.github.io/weather/",
