@@ -54,7 +54,7 @@ const level = [
     name: "PROJECT REMEMBER",
     imageSrc: "img/remember.png",
     description:
-      "A DATA-DRIVEN, INTERACTIVE TODO LIST IN JAVASCRIPT. USER CAN ADD, AND MARK TASKS AS DONE. DATA PERSISTENCE USING LOCALSTORAGE.",
+      "A DATA-DRIVEN, INTERACTIVE TODO LIST IN JAVASCRIPT. USER CAN ADD, AND MARK TASKS AS DONE. DATA PERSISTENCE USING LOCAL STORAGE.",
     github: "GITHUB",
     githubLink: "https://github.com/Roberto-Kodehode/remember",
     links: "https://roberto-kodehode.github.io/remember/",
