@@ -1,3 +1,4 @@
+// Define an array of characters with information
 const characters = [
   {
     id: "fiona-the-frenchie",
@@ -19,25 +20,29 @@ const characters = [
   },
 ];
 
+// Create an array of elements by mapping over the characters and getting DOM elements by their id
 const elements = characters.map((character) => ({
-  img: document.getElementById(character.id),
-  name: document.getElementById("character-name"),
-  description: document.getElementById("character-about-text"),
+  img: document.getElementById(character.id), // Character's image
+  name: document.getElementById("character-name"), // DOM element for character name
+  description: document.getElementById("character-about-text"), // DOM element for character description
 }));
 
-let timer;
+let timer; // Initialize a timer variable
 
+// Add click event listeners to each character's image
 elements.forEach(({ img, name, description }, index) => {
   img.addEventListener("click", () => {
+    // Display the character's name in uppercase
     name.textContent = characters[index].name.toUpperCase();
 
-    const myArray = characters[index].description.split("");
+    const myArray = characters[index].description.split(""); // Split the character's description into an array of characters
 
-    description.textContent = "";
-    clearInterval(timer);
+    description.textContent = ""; // Clear the description text
+    clearInterval(timer); // Clear any previous timer
 
+    // Set up a new timer to display the description with a typewriter effect
     timer = setInterval(() => {
-      description.textContent += myArray.shift().toUpperCase();
-    }, 42);
+      description.textContent += myArray.shift().toUpperCase(); // Add one character at a time in uppercase
+    }, 42); // 42 milliseconds delay between characters
   });
 });
