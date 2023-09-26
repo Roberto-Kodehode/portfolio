@@ -10,7 +10,7 @@ const characters = [
     id: "roberto-the-frontendman",
     name: "Roberto The Frontendman",
     description:
-      "I am Roberto the Frontendman! And I've recently completed a six month front-end development education. I'm now looking for an internship to further develop my skills and knowledge. As a front-end developer my passion is clean design combined with great user experience. My vision is that a website should both be purposeful and aesthetically pleasing. I am proficient in various front-end skills such as HTML/CSS, Javascript, React and Figma. I like to keep up with the latest trends. This allows me to ensure that my work is modern and relevant.",
+      "I am Roberto the Frontendman! And I've recently completed a six month front-end development education. I'm now looking for an internship to further develop my skills and knowledge. As a front-end developer my passion is clean design combined with great user experience. My vision is that a website should both be purposeful and aesthetically pleasing. I am proficient in various front-end skills such as HTML/CSS, Javascript, React and Figma. I am currently a learner of Google UX Design Certificate",
   },
   {
     id: "roberto-the-pizzaman",
